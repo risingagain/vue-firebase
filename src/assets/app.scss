@@ -1,0 +1,25 @@
+// Bootstrap Theming Variables
+$body-bg: #dfdfdf;
+$body-color: var(--color-primary);
+$font-family-base: Nunito, sans serif;
+$font-size-base: 14;
+
+@import '~bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~sweetalert2/dist/sweetalert2.min.css';
+
+:root {
+  --color-primary: #494f57;
+}
+
+html, body, #app {
+  height: 100vh;
+}
+
+table.table {
+  white-space: nowrap;
+
+  tr td {
+    vertical-align: middle;
+  }
+}
